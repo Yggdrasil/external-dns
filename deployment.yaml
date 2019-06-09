@@ -26,6 +26,7 @@ spec:
               value: /var/secrets/google/key.json
           args:
             - --source=service
+            - --source=ingress
             - --domain-filter=heemels.net # will make ExternalDNS see only the hosted zones matching provided domain, omit to process all available hosted zones
             - --provider=google
             #- --google-project=$PROJECT_NAME # Use this to specify a project different from the one external-dns is running inside
