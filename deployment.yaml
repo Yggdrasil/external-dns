@@ -17,7 +17,7 @@ spec:
       serviceAccountName: external-dns
       containers:
         - name: external-dns
-          image: bitnami/external-dns:latest
+          image: registry.opensource.zalan.do/teapot/external-dns:latest
           volumeMounts:
             - name: google-cloud-key
               mountPath: /var/secrets/google
