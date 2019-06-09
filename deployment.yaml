@@ -34,3 +34,9 @@ spec:
             - --registry=txt
             - --txt-owner-id=my-identifier
             #- --log-level=debug
+          resources:
+            requests:
+              memory: "50Mi"
+              cpu: "10m"
+            limits:
+              memory: "50Mi"
