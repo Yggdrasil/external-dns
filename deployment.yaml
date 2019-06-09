@@ -33,3 +33,4 @@ spec:
             #- --policy=sync # would prevent ExternalDNS from deleting any records, omit to enable full synchronization
             - --registry=txt
             - --txt-owner-id=my-identifier
+            - --log-level=debug
